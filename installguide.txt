@@ -1,0 +1,16 @@
+npm install
+npm install eslint --save-dev
+npm install prettier --save-dev
+npm install eslint-plugin-prettier eslint-config-prettier --save-dev
+npm run lint
+npm run format
+
+
+npx eslint --fix src/layouts/usermaster/data/userMaster.js
+
+frontend 
+npm install
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npm install -g svgo
+svgo -i src/assets/images/illustrations/pattern-tree.svg -o src/assets/images/illustrations/optimized-pattern-tree.svg
+
